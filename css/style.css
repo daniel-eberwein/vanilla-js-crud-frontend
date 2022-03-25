@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 2rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+#heading-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#change-list-name-btn {
+    background-color: transparent;
+    color: green;
+}
+
+#change-list-name-btn:hover {
+    text-decoration: underline;
+}
+
+#new-list-name, #save-new-list-name-btn {
+    display: none;
+}
+
+.visible {
+    display: block !important;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: rgba(0,128,0,0.05);
+    margin: 1rem 0;
+    padding: 0.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    height: 3rem;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: transparent;
+    color: red;
+    margin-left: 1rem;
+    height: auto;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}
+
+input {
+    padding: 0.5rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+.liste-container {
+    margin-top: 2rem;
+}
+
+.done-container, .liste-container {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 30%;   
+}
